@@ -39,6 +39,7 @@ header {
 	justify-content:center;
 	align-items:space-between;
 	font-size: 12px;
+	/*background: linear-gradient(to top,#eee,#ddd,#eee);*/
 }
 header a {
 	flex: 1 1 10%;
