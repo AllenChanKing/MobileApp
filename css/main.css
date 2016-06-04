@@ -39,22 +39,45 @@ header {
 	height: 48px;
 	display: -webkit-flex;
   	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-moz-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	-o-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	justify-content:center;
+	-webkit-justify-content: center;
+	-webkit-align-items:space-between;
+	-moz-justify-content: center;
+	-moz-align-items:space-between;
+	-ms-justify-content: center;
+	-ms-align-items:space-between;
+	-o-justify-content: center;
+	-o-align-items:space-between;
+	justify-content: center;
 	align-items:space-between;
 	font-size: 12px;
-	/*background: linear-gradient(to top,#eee,#ddd,#eee);*/
 }
 header a {
-	flex: 1 1 10%;
+	-webkit-flex: 1 1 15%;
+	-moz-flex: 1 1 15%;
+	-ms-flex: 1 1 15%;
+	-o-flex: 1 1 15%;
+	flex: 1 1 15%;
 	display: -webkit-flex;
 	display: flex;
+	-webkit-justify-content: center;
+	-webkit-align-items:center;
+	-moz-justify-content: center;
+	-moz-align-items:center;
+	-ms-justify-content: center;
+	-ms-align-items:center;
+	-o-justify-content: center;
+	-o-align-items:center;
 	justify-content: center;
 	align-items:center;
 }
 
 header h2 {
-	width: 80%;
+	width: 70%;
 	line-height: 48px;
 	text-align: center;
 	overflow:hidden;
@@ -67,8 +90,20 @@ footer {
 	height: 60px;
 	display: -webkit-flex;
   	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-moz-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	-o-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	justify-content:center;
+	-webkit-justify-content: center;
+	-webkit-align-items:stretch;
+	-moz-justify-content: center;
+	-moz-align-items:stretch;
+	-ms-justify-content: center;
+	-ms-align-items:stretch;
+	-o-justify-content: center;
+	-o-align-items:stretch;
+	justify-content: center;
 	align-items:stretch;
 	font-size: 14px;
 }
@@ -78,11 +113,27 @@ footer a {
 	display: flex;
 	justify-content: center;
 	align-items:center;
+	-webkit-flex-flow: column nowrap;
+	-moz-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
+	-o-flex-flow: column nowrap;
 	flex-flow: column nowrap;
-
 	order: 1;
+	-webkit-flex: 1 1 20%;
+	-moz-flex: 1 1 20%;
+	-ms-flex: 1 1 20%;
+	-o-flex: 1 1 20%;
 	flex: 1 1 20%;
-	
+	-webkit-justify-content: center;
+	-webkit-align-items:center;
+	-moz-justify-content: center;
+	-moz-align-items:center;
+	-ms-justify-content: center;
+	-ms-align-items:center;
+	-o-justify-content: center;
+	-o-align-items:center;
+	justify-content: center;
+	align-items:center;
 }
 footer a.curTab {
 	background: #ccc;

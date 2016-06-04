@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	font-family: "微软雅黑";
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	-webkit-overflow-scrolling:touch;
+}
+
+body {
+	background: #eee;
+}
+ul {
+	overflow: hidden;
+}
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	-webkit-touch-callout: none;
+}
+
+.logobox {
+	width: 100%;
+	height: auto;
+	padding-top: 3rem;
+}
+.logo{
+	width: 10rem;
+	height: 10rem;
+	margin: 0 auto;
+}
+
+.logo div.head {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 25% 25%;
+	background: #000;
+}
+
+.logo div.head:before,
+.logo div.head:after {
+	position: absolute;
+	content: '';
+	top: -1rem;
+	width: 0;
+	height: 0;
+	border-top: 1rem solid transparent;
+}
+.logo div.head:before {
+	left: 0;
+	border-right: 2rem solid transparent;
+	border-bottom: 1rem solid #000;
+	border-left: 2rem solid #000;
+}
+.logo div.head:after {
+	right: 0;
+	border-right: 2rem solid #000;
+	border-bottom: 1rem solid #000;
+	border-left: 2rem solid transparent;
+}
+
+.logo .eyes {
+	position: absolute;
+	top: 20%;
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+	background: #fff;
+}
+.lefteyes {
+	left: 20%;
+}
+.righteyes {
+	right: 20%;
+}
+.logo .eyes:after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	right: 0;
+	width: 1rem;
+	height: 1rem;
+	margin-top: -.5rem;
+	border-radius: 50%;
+	background: #000;
+}
+
+.logo .lefteyes:after {
+	right: 0;
+	-webkit-animation:lefteyes 2s ease-in 1s alternate infinite;
+	-moz-animation:lefteyes 2s ease-in 1s alternate infinite;
+	-ms-animation:lefteyes 2s ease-in 1s alternate infinite;
+	-o-animation:lefteyes 2s ease-in 1s alternate infinite;
+	animation:lefteyes 2s ease-in 1s alternate infinite;
+}
+
+.logo .righteyes:after {
+	left: 0;
+	-webkit-animation:righteyes 2s ease-in 2s alternate infinite;
+	-moz-animation:righteyes 2s ease-in 2s alternate infinite;
+	-ms-animation:righteyes 2s ease-in 2s alternate infinite;
+	-o-animation:righteyes 2s ease-in 2s alternate infinite;
+	animation:righteyes 2s ease-in 2s alternate infinite;
+}
+
+.logo .nose {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	width: 0;
+	height: 0;
+	margin-left: -.75rem;
+	border-top: 1.25rem solid #fff;
+	border-right: .75rem solid transparent;
+	/*border-bottom: 1.25rem solid #fff;*/
+	border-left: .75rem solid transparent;
+}
+
+.infobox {
+	width: 100%;
+	text-align: center;
+	padding: 3rem 0 5rem;
+}
+
+.infobox .inputbox {
+	width: 80%;
+	height: 5rem;
+	margin: 0 auto;
+}
+
+.inputbox input {
+	width: 80%;
+	height: 4rem;
+	margin-left: 20%;
+	border: none;
+	border-bottom:1px solid #ccc;
+	background: transparent;
+	text-indent: 1rem;
+	color: #555;
+}
+
+.usernamebox {
+	background: url(../res/images/login/user.png) no-repeat left center;
+	background-size: 5rem 5rem;
+}
+.passwordbox {
+	background: url(../res/images/login/password.png) no-repeat left center;
+	background-size: 5rem 5rem;
+}
+.infobox .btn {
+	display: block;
+	width: 80%;
+	height: 4rem;
+	margin-left: 10%;
+	text-align: center;
+	line-height: 4rem;
+	border-radius: 2rem;
+	box-sizing: border-box;
+	font-size: 1.8rem;
+}
+.btn_signin {
+	margin-top: 1rem;
+	background: #2169D7;
+	color: #B3F0FF;
+	border: 1px solid #2956AB;
+}
+.btn_signup {
+	margin-top: 1rem;
+	background: rgba(255,255,255,.5);
+	color: #677787;
+	border: 1px solid #ccc;
+}
+
+.forget{
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	color: #A8A9AD;
+}
+.othermethods {
+	margin-top: 2rem;
+	color: #76838C;
+}
+.othermethods a{
+	display: inline-block;
+	width: 5rem;
+	height: 5rem;
+	padding: .5rem;
+	margin:2rem .5rem 0 .5rem;
+	text-align: center;
+	line-height: 5rem;
+	border-radius: 50%;
+	background: rgba(2355,255,255,.5);
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+

@@ -1,0 +1,85 @@
+@-webkit-keyframes lefteyes {
+	50%{
+		left: 0;
+	}
+	100% {
+		right: 0;
+	}
+}
+@-moz-keyframes lefteyes {
+	50%{
+		left: 0;
+	}
+	100% {
+		right: 0;
+	}
+}
+@-ms-keyframes lefteyes {
+	50%{
+		left: 0;
+	}
+	100% {
+		right: 0;
+	}
+}
+@-o-keyframes lefteyes {
+	50%{
+		left: 0;
+	}
+	100% {
+		right: 0;
+	}
+}
+@keyframes lefteyes {
+	50%{
+		left: 0;
+	}
+	100% {
+		right: 0;
+	}
+}
+
+
+
+
+
+@-webkit-keyframes righteyes {
+	50%{
+		right: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
+@-moz-keyframes righteyes {
+	50%{
+		right: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
+@-ms-keyframes righteyes {
+	50%{
+		right: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
+@-o-keyframes righteyes {
+	50%{
+		right: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
+@keyframes righteyes {
+	50%{
+		right: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
