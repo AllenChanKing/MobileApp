@@ -96,24 +96,11 @@ img {
 	margin-top: -.5rem;
 	border-radius: 50%;
 	background: #000;
-}
-
-.logo .lefteyes:after {
-	right: 0;
-	-webkit-animation:lefteyes 2s ease-in 1s alternate infinite;
-	-moz-animation:lefteyes 2s ease-in 1s alternate infinite;
-	-ms-animation:lefteyes 2s ease-in 1s alternate infinite;
-	-o-animation:lefteyes 2s ease-in 1s alternate infinite;
-	animation:lefteyes 2s ease-in 1s alternate infinite;
-}
-
-.logo .righteyes:after {
-	left: 0;
-	-webkit-animation:righteyes 2s ease-in 2s alternate infinite;
-	-moz-animation:righteyes 2s ease-in 2s alternate infinite;
-	-ms-animation:righteyes 2s ease-in 2s alternate infinite;
-	-o-animation:righteyes 2s ease-in 2s alternate infinite;
-	animation:righteyes 2s ease-in 2s alternate infinite;
+	-webkit-animation:eyes 2s ease-in 2s alternate infinite;
+	-moz-animation:eyes 2s ease-in 2s alternate infinite;
+	-ms-animation:eyes 2s ease-in 2s alternate infinite;
+	-o-animation:eyes 2s ease-in 2s alternate infinite;
+	animation:eyes 2s ease-in 2s alternate infinite;
 }
 
 .logo .nose {
@@ -132,7 +119,7 @@ img {
 .infobox {
 	width: 100%;
 	text-align: center;
-	padding: 3rem 0 5rem;
+	padding: 2rem 0 3rem;
 }
 
 .infobox .inputbox {
@@ -190,6 +177,9 @@ img {
 	font-size: 1.4rem;
 	color: #A8A9AD;
 }
+.forget img {
+	vertical-align: middle;
+}
 .othermethods {
 	margin-top: 2rem;
 	color: #76838C;
@@ -199,7 +189,7 @@ img {
 	width: 5rem;
 	height: 5rem;
 	padding: .5rem;
-	margin:2rem .5rem 0 .5rem;
+	margin:1rem .5rem 0 .5rem;
 	text-align: center;
 	line-height: 5rem;
 	border-radius: 50%;

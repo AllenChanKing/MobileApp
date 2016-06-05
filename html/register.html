@@ -13,12 +13,44 @@
 <link href="../res/images/favicon.ico" rel="shortcut icon" />
 <title>用户注册</title>
 <script type="text/javascript" src="../js/htmlFontSize.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/common.css">
 <link rel="stylesheet" type="text/css" href="../css/register.css">
 <!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
 </head>
 <body>
-    
+    <div class="headarea">
+        <div class="avatarbox"></div>
+        <img src="../res/images/register/edit.png" width="6%" class="edit">
+    </div>
+    <div class="registervbox">
+        <span>
+            Basic infomation
+        </span>
+        <div class="inputbox">
+            <input type="text" name="fullname" placeholder="Full Name" />
+        </div>
+        <div class="inputbox">
+            <input type="text" name="email" placeholder="Email" />
+        </div>
+        <span>
+            Private infomation
+        </span>
+        <div class="inputbox">
+            <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="inputbox">
+            <input type="text" name="mobile" placeholder="Mobile" />
+        </div>
+        <a href="javascript:;" class="btn_signup">
+            Sign up
+        </a>
+        <a href="login.html" class="already">
+            Already have an account
+            <img src="../res/images/login/question.png" width="7%">
+        </a>
+    </div>
 </body>
 <script type="text/javascript" src="../js/jquery-1.8.1.min.js"></script>
 <script type="text/javascript" src="../js/register.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
 </html>

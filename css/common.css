@@ -1,0 +1,15 @@
+.toast {
+	position: fixed;
+	/*display: none;*/
+	bottom: 20%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	font-size: 1.5rem;
+	padding: .5rem 1rem;
+	border-radius: 2rem;
+	background: rgba(0,0,0,.4);
+}

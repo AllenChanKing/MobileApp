@@ -1,6 +1,9 @@
 * {
 	margin: 0;
-	padding: 0
+	padding: 0;
+	font-size: 1.6rem;
+	font-family: "微软雅黑";
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 html,
@@ -13,13 +16,93 @@ body {
 body {
 	background: #eee;
 }
+ul {
+	overflow: hidden;
+}
+ul li {
+	list-style: none;
+}
 
 a {
 	text-decoration: none;
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
-	color: #555;
 }
 
 img {
 	-webkit-touch-callout: none;
+}
+
+.headarea {
+	position: relative;
+	width: 100%;
+	height: 12rem;
+	background: #2568D3;
+}
+
+.headarea .avatarbox {
+	position: absolute;
+	bottom: 2rem;
+	left: 4rem;
+	width: 7rem;
+	height: 7rem;
+	border: 1px dashed #fff;
+	border-radius: 50%;
+	box-sizing: border-box;
+	background: rgba(255,255,255,.3);
+}
+
+.headarea .edit {
+	position: absolute;
+	right: 2rem;
+	bottom: 1rem;
+}
+
+.registervbox {
+	width: 80%;
+	margin: 0 auto;
+	color: #8194A5;
+	padding-bottom: 3rem;
+}
+
+.registervbox span {
+	display: block;
+	margin-top: 2rem;
+	font-size: 1.8rem;
+}
+
+.inputbox {
+	width: 100%;
+	height: 4rem;
+}
+.inputbox input {
+	width: 100%;
+	height: 4rem;
+	border: none;
+	border-bottom:1px solid #ccc;
+	background: transparent;
+	color: #555;
+}
+
+.btn_signup {
+	display: block;
+	width: 100%;
+	height: 4rem;
+	margin-top: 2rem;
+	text-align: center;
+	line-height: 4rem;
+	border-radius: 2rem;
+	box-sizing: border-box;
+	font-size: 1.8rem;
+	background: #2169D7;
+	color: #B3F0FF;
+	border: 1px solid #2956AB;
+}
+.already {
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	color: #A8A9AD;
+	text-align: center;
+}
+.already img {
+	vertical-align: middle;
 }
