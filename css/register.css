@@ -97,7 +97,7 @@ img {
 	border: 1px solid #2956AB;
 }
 .already {
-	display: inline-block;
+	display: block;
 	margin-top: 1rem;
 	font-size: 1.4rem;
 	color: #A8A9AD;
