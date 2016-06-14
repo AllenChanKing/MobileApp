@@ -15,17 +15,20 @@
 <link rel="stylesheet" type="text/css" href="../css/common.css">
 <link rel="stylesheet" type="text/css" href="../css/main.css">
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../fonts/iconfont/iconfont.css">
 <script data-main="../js/config.js" src="../js/require.js"></script>
 </head>
-<body>
+<body ng-controller="MobileAppCtrl">
     <header>
-        <a href="javascript:;"><span class="icon icon-arrow-up-left2"></span></a>
+        <a href="javascript:;"><span class="icon icon-xiangzuo"></span></a>
         <h2>淘生活</h2>
-        <a href="javascript:;"><span class="icon icon-loop2"></span></a>
+        <a href="javascript:;"><span class="icon icon-fenxiang3"></span></a>
     </header>
     <div class="content">
-        <div class="tab curTabContent">
-
+        <div ng-view=""></div>
+        <!-- <div class="tab curTabContent">
+            <input type="text" ng-model="name">
+            {{name}}
         </div>
         <div class="tab">
 
@@ -38,14 +41,30 @@
         </div>
         <div class="tab">
         	
-        </div>
+        </div> -->
     </div>
     <footer>
-        <a href="javascript:;" class="curTab"><span class="icon icon-home"></span>首页</a>
-        <a href="javascript:;"><span class="icon icon-truck"></span>物流</a>
-        <a href="javascript:;"><span class="icon icon-cart"></span>购物车</a>
-        <a href="javascript:;"><span class="icon icon-user"></span>我的猫</a>
-        <a href="javascript:;"><span class="icon icon-menu"></span>更多</a>
+        <a href="#/index" class="curTab"><span class="icon icon-shouye"></span>首页</a>
+        <a href="#/logistics"><span class="icon icon-truck"></span>物流</a>
+        <a href="#/shoppingcar"><span class="icon icon-gouwuche"></span>购物车</a>
+        <a href="#/myCat"><span class="icon icon-wode"></span>我的猫</a>
+        <a href="#/more"><span class="icon icon-fenlei1"></span>更多</a>
     </footer>
 </body>
 </html>
+
+<script type="text/ng-template" id="index.html">
+  <h1> index </h1>
+</script>
+<script type="text/ng-template" id="logistics.html">
+  <h1> logistics </h1>
+</script>
+<script type="text/ng-template" id="shoppingcar.html">
+  <h1> shoppingcar </h1>
+</script>
+<script type="text/ng-template" id="myCat.html">
+  <h1> myCat </h1>
+</script>
+<script type="text/ng-template" id="more.html">
+  <h1> more </h1>
+</script>
